@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# **Kalkulator Serbaguna – TOPSIS**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Kalkulator Serbaguna–TOPSIS adalah aplikasi web yang menyediakan fitur kalkulator dasar serta perhitungan metode **TOPSIS (Technique for Order Preference by Similarity to Ideal Solution)** untuk membantu proses pengambilan keputusan multikriteria.
+Aplikasi ini dibangun menggunakan **Vite + React**, sehingga cepat, ringan, dan mudah dikembangkan.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 **Fitur Utama**
 
-### `npm start`
+* Kalkulator umum: tambah, kurang, kali, bagi
+* Perhitungan TOPSIS lengkap:
 
-Runs the app in the development mode.\
-Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
+  * Normalisasi matriks
+  * Bobot kriteria
+  * Solusi ideal positif & negatif
+  * Ranking hasil akhir
+* UI responsif & ringan
+* Proses development sangat cepat berkat Vite
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📦 **Tech Stack**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **Vite** — fast dev server & superlight bundler
+* **React** — UI berbasis komponen
+* **TailwindCSS** — styling utility-first
+* **JavaScript (JSX)**
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚙️ **Setup Project di Lokal**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 1️⃣ Clone Repository
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/username/kalkulator-serbaguna-topsis.git
+```
 
-### `npm run eject`
+### 2️⃣ Masuk ke folder project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+cd kalkulator-serbaguna-topsis
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 3️⃣ Install Dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Pastikan **Node.js v18+** sudah terpasang.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm install
+```
 
-## Learn More
+### 4️⃣ Jalankan Development Server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm run dev
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Lalu buka:
+**[http://localhost:5173](http://localhost:5173)**
 
-### Code Splitting
+### 5️⃣ Build untuk Production
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm run build
+```
 
-### Analyzing the Bundle Size
+### 6️⃣ Preview hasil build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm run preview
+```
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📁 **Struktur Project**
 
-### Advanced Configuration
+```
+project/
+├─ src/
+│  ├─ components/
+│  ├─ pages/
+│  ├─ hooks/
+│  ├─ App.jsx
+│  └─ main.jsx
+├─ public/
+├─ .gitignore
+├─ index.html
+├─ package.json
+└─ vite.config.js
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 📜 **License**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project ini dirilis menggunakan **MIT License** — bebas digunakan, dimodifikasi, dan didistribusikan.
